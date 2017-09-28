@@ -19,7 +19,7 @@
 		<div id="logo"><img src="resources/watchlogo.png" height="73px" width="150px"></div>
 		<ul>
 			<li><a href="/">HOME</a></li>
-			<li><a href="/Investing">INVESTING</a></li>
+			<li><a href="/investing.php">INVESTING</a></li>
 			<li><a href="/our_diamonds.php">OUR DIAMONDS</a></li>
 			<li><a href="/education">EDUCATION</a></li>
 			<li><a href="/media">MEDIA</a></li>
@@ -41,7 +41,7 @@
 	<div id="content_container">
 
 	<div id="box_1">
-		<img id="dynamic-img" src="resources/argyle1.jpg" height="400px" width="765px">
+		<img id="dynamic-img" src="/resources/argyle1.jpg" height="400px" width="765px">
 
 		<div id="tempsliderbanner"><h1>Temporary banner that will likely be fixed to image/slide</h1></div>
 
