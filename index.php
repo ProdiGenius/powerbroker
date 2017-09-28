@@ -41,7 +41,7 @@
 	<div id="content_container">
 
 	<div id="box_1">
-		<img id="dynamic-img" src="/resources/argyle1.jpg" height="400px" width="765px">
+		<img id="dynamic-img" src="resources/argyle1.JPG" height="400px" width="765px">
 
 		<div id="tempsliderbanner"><h1>Temporary banner that will likely be fixed to image/slide</h1></div>
 
