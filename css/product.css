@@ -1,0 +1,114 @@
+@charset "utf-8";
+#product-navigation-bar{
+	width: 100%;
+	height: 60px;
+	border: 1px dashed black;
+}
+#product-image-container{
+	width: 54%;
+	height: 600px;
+	border: 1px dashed black;
+}
+
+#product-details-container{
+	padding-top: 35px;
+	width: 44%;
+	height: 600px;
+
+}
+#image-viewer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#image-viewer img{
+	width: 100%;
+	height: 100%;
+}
+h1.product-title{
+	font-family: "Crimson", Perpetua, Palatino, "Times New Roman", Times, serif;
+	font-size: 30px;
+	line-height: 1;
+	color: #036;
+	font-weight: normal;
+	padding-left: 5px;
+}
+#price-box{
+	width:100%;
+	height: auto;
+	border-top: 1px solid #ababab;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h1#pricetag{
+	padding-right: 5px;
+	text-align: right;
+	width: 100%;
+	font-size: 1.6em;
+	color: #036;
+	font-weight: normal;
+	font-family: Arial,Helvetica,sans-serif ;
+}
+.details-table{
+	width: 100%;
+	height: auto;
+	display: table;
+}
+.row-detail{
+	height:auto;
+	width: 100%;
+	display: table;
+	border-top: 1px solid #ababab;
+	line-height: 30px;
+	font-size: 0;
+}
+.row-detail:nth-child(even){
+	background-color: #FAFAFA;
+}
+.row-detail:last-child{
+	border-bottom: 1px solid #ababab;
+}
+.left-col{
+	display: table-cell;
+	float: left;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	color: #333;
+	padding-left: 5px;
+}
+
+.right-col{
+	display: table-cell;
+	float: right;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	padding-right: 5px;
+}
+table{
+	width: 100%;
+	height: auto;
+}
+table tr{
+	display: inline-block;
+	height:auto;
+	width: 100%;
+	border-bottom: 1px solid black;
+
+}
+table tr:nth-child(even){
+	background-color: #FAFAFA;
+}
+table tr td{
+	line-height: 25px;
+	border-top: 1px solid #ababab;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+table tr td:last-child{
+	float:right;
+
+}
